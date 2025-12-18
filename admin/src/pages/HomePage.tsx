@@ -226,7 +226,7 @@ const HomePage = () => {
                 </Field.Label>
                 <TextInput
                   id="llm_api_version"
-                  value={process.env.STRAPI_ADMIN_LLM_TRANSLATOR_LLM_AZURE_API_VERSION as string}
+                  value={process.env.STRAPI_ADMIN_LLM_TRANSLATOR_AZURE_API_VERSION as string}
                   disabled
                   name="llm_api_version"
                 />
